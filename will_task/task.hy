@@ -10,7 +10,7 @@
 (defn task-callback [task page]
 
   (setv scenario-html (E.blockquote :class "scenario" (map E.p [
-    "Alice is a 21-year-old student at an American college. One night, she attends a party where she drinks 10 shots of vodka. There she meets Bob, a 21-year-old student at the same school. Alice and Bob have a friendly conversation. Bob is sober, but he (and other attendees of the party) can tell that Alice is extremely drunk. Bob suggests they go to a bedroom together, and Alice agrees. Once alone, they kiss each other and begin to undress each other. Eventually, they have vaginal sex, during which Bob wears a condom. They talk, trade phone numbers, and fall asleep."
+    "Alice is a 21-year-old student at an American college. One night, she attends a party where she drinks 10 shots of vodka. There she meets Bob, a 21-year-old student at the same school, for the first time. Alice and Bob have a friendly conversation. Bob is sober, but he (and other attendees of the party) can tell that Alice is extremely drunk. Bob suggests they go to a bedroom together, and Alice agrees. Once alone, they kiss each other and begin to undress each other. Eventually, they have vaginal sex, during which Bob wears a condom. They talk, trade phone numbers, and fall asleep."
     #[[In the morning, Bob wakes up first and leaves. After Alice wakes up, she files a complaint with the college and a police report stating that Bob raped her. School policy and local law state that sex without consent is rape, and a person intoxicated to the point of incapacitation can't consent to sex, but "incapacitation" isn't precisely defined. Alice argues that, given her severe intoxication, she was incapacitated; Bob argues that she wasn't.]]
     "Both Alice and Bob have some previous experience with alcohol and with sex, although neither was in a committed relationship with anybody at the time of the event."])))
 
@@ -33,7 +33,7 @@
       :scenario-alice-chose ["Did Alice choose to have sex with Bob?"
         "chose"
         "didn't choose"]
-      :scenario-attention-no ["Did Alice have a boyfriend?"
+      :scenario-attention-no ["Did Alice have a boyfriend at the time?"
         "had a boyfriend"
         "didn't have a boyfriend"]
       :scenario-rape ["Did Bob rape Alice?"
