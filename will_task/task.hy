@@ -49,11 +49,11 @@
        [(E.p "In your opinion…")
          (E.p prompt)]
        {
-          4 f"Definitely {yes}"
-          3 f"Probably {yes}"
+          4 f"Very likely {yes}"
+          3 f"Likely {yes}"
           2 f"Maybe {yes}"
-          1 f"Probably {no}"
-          0 f"Definitely {no}"}
+          1 f"Likely {no}"
+          0 f"Very likely {no}"}
        :after [
          (E.p "For your reference, the scenario is redisplayed below.")
          scenario-html]))
