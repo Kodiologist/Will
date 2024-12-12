@@ -42,6 +42,9 @@
       :scenario-attention-yes ["Did Bob have sex with Alice?"
         "had sex"
         "didn't have sex"]
+      :scenario-alice-responsible ["Was Alice responsible for what happened?"
+        "responsible"
+        "not responsible"]
       :scenario-punish ["Should Bob receive official punishment, such as expulsion or jail time, for his actions?"
         "should be punished"
         "shouldn't be punished"]))]
