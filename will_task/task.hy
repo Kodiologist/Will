@@ -44,6 +44,14 @@
       :No "No, she had no control over her actions."
       :Unsure "I'm not sure.")
     #** reminder)
+  (page 'choice "scenario_attention_yes_2"
+    (E.p "Would you say that Bob initiated? That is, was he the one who suggested having sex?")
+    (dict
+      :Yes "Yes, he initiated."
+      :Partly "Partly: both people offered the suggestion."
+      :No "No, he didn't initiate."
+      :Unsure "I'm not sure.")
+    #** reminder)
   (page 'choice "overall_free_will"
     (E.p #[[Overall, do you believe that humans have free will? Of course, there are a lot of different definitions of the term "free will". I just want you to use the definition that you believe is most appropriate.]])
     (dict
