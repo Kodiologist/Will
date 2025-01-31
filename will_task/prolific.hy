@@ -10,7 +10,7 @@
     :name "Sex and Decision-Making"
     :internal-name "will"
     :description "Read a description of a hypothetical sexual situation and answer some questions."
-    :estimated-completion-minutes 8
-    :reward-cents 160
+    :estimated-completion-minutes 5
+    :reward-cents 100
     :filters [(P.first-lang-english)]
     :content-warnings ["explicit"]))
