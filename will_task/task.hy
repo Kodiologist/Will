@@ -39,31 +39,27 @@
   (page 'choice "scenario_alice_control"
     (E.p "Would you say that Alice was in control of her own actions here, in terms of agreeing to the sex and participating in it?")
     (dict
-      :Yes "Yes, she was in full control of her actions."
-      :Partly "Partly: she had some control but not full control of her actions."
-      :No "No, she had no control over her actions."
+      :Yes "Yes, she was fully or mostly in control of her actions."
+      :No "No, she had little or no control over her actions."
       :Unsure "I'm not sure.")
     #** reminder)
   (page 'choice "scenario_attention_yes_2"
     (E.p "Would you say that Bob initiated? That is, was he the one who suggested having sex?")
     (dict
       :Yes "Yes, he initiated."
-      :Partly "Partly: both people offered the suggestion."
       :No "No, he didn't initiate."
       :Unsure "I'm not sure.")
     #** reminder)
   (page 'choice "overall_free_will"
     (E.p #[[Overall, do you believe that humans have free will? Of course, there are a lot of different definitions of the term "free will". I just want you to use the definition that you believe is most appropriate.]])
     (dict
-      :Yes "Yes, people always have free will."
-      :Partly "Sometimes: people sometimes have free will and sometimes don't."
-      :No "No, people never have free will."
+      :Yes "Yes, people generally have free will."
+      :No "No, people generally don't have free will."
       :Unsure "I'm not sure."))
   (page 'choice "overall_justworld"
     (E.p "Overall, do you believe the world is fair, or just? In other words, do people tend to deserve what happens to them, and get what they deserve?")
     (dict
       :Yes "Yes, the world is ultimately fair."
-      :Partly "Partly: the world is partly fair and partly unfair."
       :No "No, the world is ultimately unfair."
       :Unsure "I'm not sure."))
 
