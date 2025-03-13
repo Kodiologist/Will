@@ -53,8 +53,9 @@
   (page 'choice "overall_free_will"
     (RawHTML #[[<p>Overall, do you believe that humans have free will?</p><p>Let's define "free will" like this. Suppose you're making a decision. If the entire past of the universe up to this point and the laws of nature, together, are enough to determine exactly what you'll choose, we say that you <em>don't</em> have free will. On the other hand, if those two things (the past and the laws of nature) aren't enough to determine what you'll choose—if you still might select from several different options—then you <em>do</em> have free will.</p>]])
     (dict
-      :Yes "Yes, humans generally have free will."
-      :No "No, humans generally don't have free will."
+      :Yes "Yes, humans usually have free will."
+      :Partly "Sometimes: humans have free will roughly half the time."
+      :No "No, humans usually don't have free will."
       :Unsure "I'm not sure."))
   (page 'choice "overall_justworld"
     (RawHTML "<p>Overall, do you believe the world is fair, or just?</p><p>In other words, do people tend to deserve what happens to them, and get what they deserve?</p>")
