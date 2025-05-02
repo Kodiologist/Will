@@ -50,6 +50,7 @@
       :No "No, he didn't initiate."
       :Unsure "I'm not sure.")
     #** reminder)
+
   (page 'choice "overall_free_will"
     (RawHTML #[[<p>Overall, do you believe that humans have free will?</p><p>Let's define "free will" like this. Suppose you're making a decision. If the entire past of the universe up to this point and the laws of nature, together, are enough to determine exactly what you'll choose, we say that you <em>don't</em> have free will. On the other hand, if those two things (the past and the laws of nature) aren't enough to determine what you'll choose—if you still might select from several different options—then you <em>do</em> have free will.</p>]])
     (dict
@@ -57,6 +58,21 @@
       :Partly "Sometimes: humans have free will roughly half the time."
       :No "No, humans usually don't have free will."
       :Unsure "I'm not sure."))
+  (page 'choice "scenario_had_free_will"
+    (E.p #[[In particular, did Alice have free will (in the sense of "free will" just defined) during the scenario?]])
+    (dict
+      :Yes "Yes, she had free will."
+      :No "No, she didn't have free will."
+      :Unsure "I'm not sure.")
+    #** reminder)
+  (page 'choice "scenario_drink_impaired_free_will"
+    (E.p "Did being drunk prevent Alice from having free will, or otherwise impair her free will?")
+    (dict
+      :Yes "Yes, drunkenness impaired her free will."
+      :No "No, her free will was unimpaired by drunkenness (or, she wouldn't have had free will even if sober)."
+      :Unsure "I'm not sure.")
+    #** reminder)
+
   (page 'choice "overall_justworld"
     (RawHTML "<p>Overall, do you believe the world is fair, or just?</p><p>In other words, do people tend to deserve what happens to them, and get what they deserve?</p>")
     (dict
